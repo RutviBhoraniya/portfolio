@@ -1,0 +1,39 @@
+.About {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    color: #fff;
+    text-align: center;
+}
+
+/* Greeting Title */
+.about-greeting {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about-greeting span {
+    color: #cf2fdd;
+    /* text-shadow: 0 0 5px #00ffff; */
+}
+
+/* Role Title */
+.about-role {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+
+/* Responsive */
+@media (max-width: 600px) {
+    .about-greeting {
+        font-size: 1.5rem;
+    }
+
+    .about-role {
+        font-size: 1.2rem;
+    }
+}

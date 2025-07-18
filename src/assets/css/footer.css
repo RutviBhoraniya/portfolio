@@ -1,0 +1,15 @@
+.Footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+}
+
+.Footer img{
+    width: 40px;
+}
+
+.Footer p{
+    color: #fff;
+}

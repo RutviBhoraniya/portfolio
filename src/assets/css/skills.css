@@ -1,0 +1,60 @@
+.skills-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #fff;
+    text-shadow: 0 0 5px #cf2fdd;
+    text-align: center;
+}
+
+/* Skills Section */
+.Skills {
+    padding: 40px 20px;
+    color: #fff;
+    text-align: center;
+}
+
+/* Scrollable Image Container */
+.skills-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding-bottom: 10px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding: 20px;
+}
+
+/* Hide scrollbar (optional, keeps UI clean) */
+.skills-container::-webkit-scrollbar {
+    display: none;
+}
+
+.skills-container {
+    scrollbar-width: none;
+}
+
+/* Skill Images */
+.skill {
+    min-width: 80px;
+    max-width: 100px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.1);
+    scroll-snap-align: start;
+    transition: transform 0.3s ease;
+}
+
+.skill:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #cf2fdd;
+}
+
+@media (max-width: 600px) {
+    .skills-title {
+        font-size: 1.5rem;
+    }
+}
