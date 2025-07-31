@@ -8,7 +8,6 @@ import Contact from './components/Contact';
 import Skills from './components/Skills';
 import { Route, Routes } from 'react-router-dom';
 import About from './components/About';
-import Footer from './components/Footer';
 
 function App() {
 
@@ -23,7 +22,6 @@ function App() {
           <Route path='/Skills' element={<Skills/>}/>
           <Route path='/ContactUs' element={<Contact/>}/>
         </Routes>
-        <Footer/>
       </div>
   )
 }
