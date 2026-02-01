@@ -12,7 +12,7 @@ const Education = () => {
           <div className="timeline-content">
             <h2>Bachelor of Technology (Computer Engineering)</h2>
             <p>Marwadi University | 2022 - 2026</p>
-            <p>CGPA : 9.46</p>
+            <p>CGPA : 9.35</p>
           </div>
         </div>
 
