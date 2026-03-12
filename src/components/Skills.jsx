@@ -13,6 +13,8 @@ const Skills = () => {
         <img className='skill' src='/image/expressJS.png' alt='expressJS' />
         <img className='skill' src='/image/MongoDB.png' alt='MongoDB' />
         <img className='skill' src='/image/restapi.png' alt='restapi' />
+        <img className='skill' src='/image/shopify.png' alt='shopify' />
+        <img className='skill' src='/image/liquid.png' alt='liquid' />
       </div>
     </section>
   )
