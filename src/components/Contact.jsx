@@ -14,7 +14,7 @@ const Contact = () => {
     emailjs
       .send(
         'service_hyy7agv',
-        'template_tdij9cc', 
+        'template_tdij9cc',
         data,
         'Jl6lu_7DuHuzURGnn'
       )
@@ -32,44 +32,44 @@ const Contact = () => {
   };
 
   return (
-    <div className='Contact'>
-        <h2 className='contact-title'>Contact</h2>
-        <form onSubmit={handleSubmit(sendEmail)}className='contact-form'>
+    <section className='Contact'>
+      <h2 className='contact-title'>Contact</h2>
+      <form onSubmit={handleSubmit(sendEmail)} className='contact-form'>
         <div>
-            <label htmlFor="name" >Name</label>
-            <input 
-            {...register('name', { required: true })} 
-            id ='name'
+          <label htmlFor="name" >Name</label>
+          <input
+            {...register('name', { required: true })}
+            id='name'
             autoComplete='off'
-            />
-            {errors.name && <span>Name is required</span>}
+          />
+          {errors.name && <span>Name is required</span>}
         </div>
 
         <div>
-            <label htmlFor="email">Email</label>
-            <input
+          <label htmlFor="email">Email</label>
+          <input
             {...register('email', {
-                required: true,
-                pattern: /^\S+@\S+$/i
+              required: true,
+              pattern: /^\S+@\S+$/i
             })}
-            id ='email'
+            id='email'
             autoComplete='off'
-            />
-            {errors.email && <span>Valid email is required</span>}
+          />
+          {errors.email && <span>Valid email is required</span>}
         </div>
 
         <div>
-            <label htmlFor="message" >Message</label>
-            <textarea 
-            {...register('message', { required: true })} 
+          <label htmlFor="message" >Message</label>
+          <textarea
+            {...register('message', { required: true })}
             id='message'
-            autoComplete='off'/>
-            {errors.message && <span>Message is required</span>}
+            autoComplete='off' />
+          {errors.message && <span>Message is required</span>}
         </div>
 
         <button type="submit" className='send'>Send</button>
-        </form>
-    </div>
+      </form>
+    </section>
   );
 };
 

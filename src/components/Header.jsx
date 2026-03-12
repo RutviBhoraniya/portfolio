@@ -9,8 +9,8 @@ const Header = () => {
     }
 
     return (
-        <div className='Header'>
-            <div className='brand'><img src='/image/graduate.png' className="brand-img"/></div>
+        <header className='Header'>
+            <div className='brand'><img src='/image/graduate.png' className="brand-img" alt='graduate' /></div>
             <button className="toggle-btn" onClick={handleToggle}>☰</button>
             <ul className={toggle ? "nav nav-underline show" : "nav nav-underline"}>
                 <li className="nav-item">
@@ -29,7 +29,7 @@ const Header = () => {
                     <NavLink className="nav-link" to="/ContactUs">Contact Me</NavLink>
                 </li>
             </ul>
-        </div>
+        </header>
     )
 }
 

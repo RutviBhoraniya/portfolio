@@ -4,11 +4,11 @@ import Education from './Education';
 
 const About = () => {
   return (
-    <div className="About">
+    <section className="About">
       <h1 className="about-greeting">Hi, I'm <span>Rutvi Bhoraniya</span></h1>
-      <p className="about-role">A Passionate Full Stack Developer</p>
-      <Education/>
-    </div>
+      <p className="about-role">A Passionate Shopify and MERN Stack Developer</p>
+      <Education />
+    </section>
   );
 };
 

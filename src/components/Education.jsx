@@ -3,7 +3,7 @@ import '../assets/css/education.css';
 
 const Education = () => {
   return (
-    <div className="Education">
+    <section className="Education">
       <h1 className="education-title">Education</h1>
       <div className="timeline">
 
@@ -35,7 +35,7 @@ const Education = () => {
         </div>
 
       </div>
-    </div>
+    </section>
   );
 };
 
